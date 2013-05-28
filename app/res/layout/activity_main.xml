@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/spotName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spotName"
+        android:layout_marginRight="@dimen/valueRight"
+        android:text="@string/no_data"
+        android:textSize="42sp" />
+    
+    <Button
+        android:id="@+id/buttonGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/graphButtonLeft"
+        android:layout_alignBaseline="@+id/value"
+        android:layout_alignBottom="@+id/value"
+        android:layout_alignLeft="@+id/spotName"
+        android:text="@string/graph"
+        android:textSize="24sp" />
+        
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/value"
+        android:layout_marginRight="@dimen/valueRight"
+        android:text="@string/unit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/unit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/scrollView"
+        android:layout_marginRight="@dimen/scrollView"
+        android:layout_marginTop="25dp"
+        android:scrollbars="vertical"
+        android:background="@color/detail_background" >
+
+        <include
+            layout="@layout/main_detail" />
+
+    </ScrollView>
+</RelativeLayout>

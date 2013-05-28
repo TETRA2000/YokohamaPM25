@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">横浜 PM2.5</string>
+    <string name="title_activity_first_setting">初期設定</string>
+    <string name="select_spot">測定局を選択</string>
+    <string name="notion">※測定局は後で変更できます。</string>
+    <string name="now_value">現在の値</string>
+    <string name="share">シェア</string>
+    <string name="month">今月の測定値</string>
+    <string name="today">今日の測定値</string>
+    <string name="unit">(μg/m^3)</string>
+    <string name="reset_spot">測定局を削除</string>
+    <string name="reflesh">更新</string>
+    <string name="cannot_connect">通信出来ません</string>
+    <string name="this_is_the_latest_value">最新のデータです</string>
+    <string name="updated">更新しました</string>
+    <string name="updated_failed">更新失敗</string>
+    <string name="loading">読込中</string>
+    <string name="no_data">データなし</string>
+    <string name="update_time">更新時刻</string>
+    <string name="today_max">本日の最高値</string>
+    <string name="yesterday_ave">昨日の平均値</string>
+    <string name="today_ave">本日の平均値</string>
+    <string name="graph">グラフ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_graph">グラフ</string>
+    <string name="thumbnail">Thumbnail</string>
+
+</resources>

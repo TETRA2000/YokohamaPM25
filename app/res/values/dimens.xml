@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="value_margin">-20dp</dimen>
+    <dimen name="section_margin">25dp</dimen>
+    <dimen name="title_margin">1dp</dimen>
+    <dimen name="value_font_size">26sp</dimen>
+    <dimen name="update_time_margin">40dp</dimen>
+    <dimen name="scroll_bar_margin">11dp</dimen>
+    <dimen name="update_time_font_size">20sp</dimen>
+    <dimen name="graphButtonLeft">2dp</dimen>
+    <dimen name="valueRight">3dp</dimen>
+    <dimen name="scrollView">45dp</dimen>
+    <dimen name="graphMargin">20dp</dimen>
+    <dimen name="graphPadding">20dp</dimen>
+    <dimen name="graphTitleFont">20sp</dimen>
+    <dimen name="graphIndexFont">12sp</dimen>
+    <dimen name="graphLine">2dp</dimen>
+    <dimen name="graphBackLine">1px</dimen>
+</resources>

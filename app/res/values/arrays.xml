@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spots">
+        <item >鶴見区潮田交流プラザ測定局</item>
+        <item >磯子区総合庁舎測定局</item>
+        <item >泉区総合庁舎測定局</item>
+        <item >西区浅間下交差点測定局</item>
+        <item >戸塚区矢沢交差点測定局</item>
+        <item >青葉台測定局</item>
+    </string-array>
+    <string-array name="spot_urls">
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_101.csv</item>
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_105.csv</item>
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_121.csv</item>
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_202.csv</item>
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_206.csv</item>
+        <item >http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_208.csv</item>
+    </string-array>
+    
+</resources>
