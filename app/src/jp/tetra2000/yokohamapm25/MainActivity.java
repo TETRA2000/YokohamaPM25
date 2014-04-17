@@ -14,6 +14,8 @@ import java.net.URLConnection;
 import java.util.Date;
 import java.util.TimeZone;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -124,7 +126,19 @@ public class MainActivity extends Activity {
 			}
 		}
 	}
-		
+	
+	@Override
+	public void onStart() {
+		super.onStart();
+	    EasyTracker.getInstance().activityStart(this); // Add this method.
+	}
+	
+	@Override
+	public void onStop() {
+		super.onStop();
+	    EasyTracker.getInstance().activityStop(this); // Add this method.
+	}
+	  
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

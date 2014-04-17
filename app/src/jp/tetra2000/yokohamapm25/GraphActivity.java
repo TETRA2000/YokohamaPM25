@@ -2,8 +2,9 @@ package jp.tetra2000.yokohamapm25;
 
 import java.io.File;
 
-import jp.tetra2000.yokohamapm25.MainActivity.AsyncDownloader;
+import com.google.analytics.tracking.android.EasyTracker;
 
+import jp.tetra2000.yokohamapm25.MainActivity.AsyncDownloader;
 import android.os.Bundle;
 import android.app.Activity;
 
@@ -30,5 +31,17 @@ public class GraphActivity extends Activity {
 		// 昨日のグラフ
 		gView = (GraphView)findViewById(R.id.yesterdayGraph);
 		gView.setValues(mManager.getYesterdayValues(), mManager.getYesterday());
+	}
+	
+	@Override
+	public void onStart() {
+		super.onStart();
+	    EasyTracker.getInstance().activityStart(this); // Add this method.
+	}
+	
+	@Override
+	public void onStop() {
+		super.onStop();
+	    EasyTracker.getInstance().activityStop(this); // Add this method.
 	}
 }

@@ -1,5 +1,7 @@
 package jp.tetra2000.yokohamapm25;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.app.Activity;
@@ -38,6 +40,18 @@ public class FirstSettingActivity extends Activity {
 				finish();
 			}
 		});
+	}
+	
+	@Override
+	public void onStart() {
+		super.onStart();
+	    EasyTracker.getInstance().activityStart(this); // Add this method.
+	}
+	
+	@Override
+	public void onStop() {
+		super.onStop();
+	    EasyTracker.getInstance().activityStop(this); // Add this method.
 	}
 	
 }
