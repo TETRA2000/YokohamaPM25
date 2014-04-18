@@ -44,3 +44,4 @@ proguard/
 
 #keystore
 *.keystore
+app/res/values/analytics.xml
