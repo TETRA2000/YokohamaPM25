@@ -14,6 +14,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
+import android.graphics.*;
 
 public class GraphView extends View {
 	private static final String TIME_ZONE_JAPAN = "GMT+9:00";
@@ -148,13 +149,21 @@ public class GraphView extends View {
 			canvas.drawLine(xZero, y, xEnd, y, mLinePaint);
 			
 			if(i!=0) {
-				String text = (i*interval) + "";
+				int lavelNum = i*interval;
+				String text = lavelNum + "";
 				mIndexPaint.getTextBounds(text, 0, text.length(), textBounds);
+				
+				if(100 <= lavelNum) {
+					mIndexPaint.setColor(Color.RED);
+					mIndexPaint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
+				}
 				
 				canvas.drawText(text,
 						0,
 						y - textBounds.top/2,
 						mIndexPaint);
+						
+				mIndexPaint.setColor(Color.BLACK);
 			}
 			
 		}
