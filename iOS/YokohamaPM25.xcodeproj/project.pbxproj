@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92862351951EF8D005756C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92862341951EF8D005756C9 /* AppDelegate.swift */; };
+		A92862371951EF8D005756C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92862361951EF8D005756C9 /* ViewController.swift */; };
+		A928623A1951EF8D005756C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92862381951EF8D005756C9 /* Main.storyboard */; };
+		A928623C1951EF8D005756C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A928623B1951EF8D005756C9 /* Images.xcassets */; };
+		A92862481951EF8D005756C9 /* YokohamaPM25Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92862471951EF8D005756C9 /* YokohamaPM25Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92862421951EF8D005756C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92862271951EF8D005756C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A928622E1951EF8D005756C9;
+			remoteInfo = YokohamaPM25;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A928622F1951EF8D005756C9 /* YokohamaPM25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YokohamaPM25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92862331951EF8D005756C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92862341951EF8D005756C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A92862361951EF8D005756C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A92862391951EF8D005756C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A928623B1951EF8D005756C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A92862411951EF8D005756C9 /* YokohamaPM25Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YokohamaPM25Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92862461951EF8D005756C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92862471951EF8D005756C9 /* YokohamaPM25Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YokohamaPM25Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A928622C1951EF8D005756C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A928623E1951EF8D005756C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92862261951EF8D005756C9 = {
+			isa = PBXGroup;
+			children = (
+				A92862311951EF8D005756C9 /* YokohamaPM25 */,
+				A92862441951EF8D005756C9 /* YokohamaPM25Tests */,
+				A92862301951EF8D005756C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92862301951EF8D005756C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A928622F1951EF8D005756C9 /* YokohamaPM25.app */,
+				A92862411951EF8D005756C9 /* YokohamaPM25Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92862311951EF8D005756C9 /* YokohamaPM25 */ = {
+			isa = PBXGroup;
+			children = (
+				A92862341951EF8D005756C9 /* AppDelegate.swift */,
+				A92862361951EF8D005756C9 /* ViewController.swift */,
+				A92862381951EF8D005756C9 /* Main.storyboard */,
+				A928623B1951EF8D005756C9 /* Images.xcassets */,
+				A92862321951EF8D005756C9 /* Supporting Files */,
+			);
+			path = YokohamaPM25;
+			sourceTree = "<group>";
+		};
+		A92862321951EF8D005756C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92862331951EF8D005756C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A92862441951EF8D005756C9 /* YokohamaPM25Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A92862471951EF8D005756C9 /* YokohamaPM25Tests.swift */,
+				A92862451951EF8D005756C9 /* Supporting Files */,
+			);
+			path = YokohamaPM25Tests;
+			sourceTree = "<group>";
+		};
+		A92862451951EF8D005756C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92862461951EF8D005756C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A928622E1951EF8D005756C9 /* YokohamaPM25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A928624B1951EF8D005756C9 /* Build configuration list for PBXNativeTarget "YokohamaPM25" */;
+			buildPhases = (
+				A928622B1951EF8D005756C9 /* Sources */,
+				A928622C1951EF8D005756C9 /* Frameworks */,
+				A928622D1951EF8D005756C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YokohamaPM25;
+			productName = YokohamaPM25;
+			productReference = A928622F1951EF8D005756C9 /* YokohamaPM25.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92862401951EF8D005756C9 /* YokohamaPM25Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A928624E1951EF8D005756C9 /* Build configuration list for PBXNativeTarget "YokohamaPM25Tests" */;
+			buildPhases = (
+				A928623D1951EF8D005756C9 /* Sources */,
+				A928623E1951EF8D005756C9 /* Frameworks */,
+				A928623F1951EF8D005756C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92862431951EF8D005756C9 /* PBXTargetDependency */,
+			);
+			name = YokohamaPM25Tests;
+			productName = YokohamaPM25Tests;
+			productReference = A92862411951EF8D005756C9 /* YokohamaPM25Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92862271951EF8D005756C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = TETRA2000;
+				TargetAttributes = {
+					A928622E1951EF8D005756C9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A92862401951EF8D005756C9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A928622E1951EF8D005756C9;
+					};
+				};
+			};
+			buildConfigurationList = A928622A1951EF8D005756C9 /* Build configuration list for PBXProject "YokohamaPM25" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92862261951EF8D005756C9;
+			productRefGroup = A92862301951EF8D005756C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A928622E1951EF8D005756C9 /* YokohamaPM25 */,
+				A92862401951EF8D005756C9 /* YokohamaPM25Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A928622D1951EF8D005756C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A928623A1951EF8D005756C9 /* Main.storyboard in Resources */,
+				A928623C1951EF8D005756C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A928623F1951EF8D005756C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A928622B1951EF8D005756C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92862371951EF8D005756C9 /* ViewController.swift in Sources */,
+				A92862351951EF8D005756C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A928623D1951EF8D005756C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92862481951EF8D005756C9 /* YokohamaPM25Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92862431951EF8D005756C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A928622E1951EF8D005756C9 /* YokohamaPM25 */;
+			targetProxy = A92862421951EF8D005756C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92862381951EF8D005756C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92862391951EF8D005756C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92862491951EF8D005756C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A928624A1951EF8D005756C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A928624C1951EF8D005756C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YokohamaPM25/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A928624D1951EF8D005756C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YokohamaPM25/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A928624F1951EF8D005756C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YokohamaPM25.app/YokohamaPM25";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YokohamaPM25Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A92862501951EF8D005756C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YokohamaPM25.app/YokohamaPM25";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YokohamaPM25Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A928622A1951EF8D005756C9 /* Build configuration list for PBXProject "YokohamaPM25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92862491951EF8D005756C9 /* Debug */,
+				A928624A1951EF8D005756C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A928624B1951EF8D005756C9 /* Build configuration list for PBXNativeTarget "YokohamaPM25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A928624C1951EF8D005756C9 /* Debug */,
+				A928624D1951EF8D005756C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A928624E1951EF8D005756C9 /* Build configuration list for PBXNativeTarget "YokohamaPM25Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A928624F1951EF8D005756C9 /* Debug */,
+				A92862501951EF8D005756C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92862271951EF8D005756C9 /* Project object */;
+}
