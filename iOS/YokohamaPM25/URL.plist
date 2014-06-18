@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>鶴見区潮田交流プラザ測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_101.csv</string>
+	<key>磯子区総合庁舎測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_105.csv</string>
+	<key>泉区総合庁舎測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_121.csv</string>
+	<key>西区浅間下交差点測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_202.csv</string>
+	<key>戸塚区矢沢交差点測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_206.csv</string>
+	<key>葉台測定局</key>
+	<string>http://cgi.city.yokohama.lg.jp/kankyou/saigai/data/pm25_csv_208.csv</string>
+</dict>
+</plist>
