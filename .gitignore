@@ -45,3 +45,4 @@ proguard/
 #keystore
 *.keystore
 app/res/values/analytics.xml
+build.xml
